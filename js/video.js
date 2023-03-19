@@ -1,13 +1,16 @@
-const video_01 = document.getElementById('video-01');
+const video_01 = document.querySelector('video');
 
-function togglePlay(video) {
-    if (video.paused) {
-        video.play();
-        console.log('play');
-    } else {
-        video.pause();
-        console.log('pause');
-    }
-}
+console.log(video_01);
+console.log(video_01.pause());
 
-video_01.addEventListener('click', togglePlay(this));
+// function togglePlay(video) {
+//     if (video.paused) {
+//         video.play();
+//         console.log('play');
+//     } else {
+//         video.pause();
+//         console.log('pause');
+//     }
+// }
+
+// video_01.addEventListener('click', togglePlay(this));
